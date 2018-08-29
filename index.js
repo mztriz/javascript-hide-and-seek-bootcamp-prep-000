@@ -17,6 +17,7 @@ function increaseRankBy(n) {
 }
 
 function deepestChild(){
+<<<<<<< HEAD
   let node = document.getElementById('grand-node')
   let next = node.children[0]
   while (next) {
@@ -24,4 +25,12 @@ function deepestChild(){
     next = node.children[0]
   }
   return node
+=======
+  let node = document.getElementById('grade-node')
+  let next = node.children[0]
+  while (next]){
+    next = next
+  }
+  return next
+>>>>>>> 8b2fe840feb8b31222b8e73451bed1683cd12194
 }
